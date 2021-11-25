@@ -1,5 +1,5 @@
-import { React, useState, } from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { React} from "react";
+import { Container, } from "react-bootstrap";
   import { Chrono } from "react-chrono";
 import styled from "styled-components"
 

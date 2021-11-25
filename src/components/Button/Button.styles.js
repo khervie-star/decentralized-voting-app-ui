@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Button } from 'react-bootstrap'
-import { purple, orange, white } from '../../utils/UITheme/UITheme'
+import { purple, white } from '../../utils/UITheme/UITheme'
 
 
 const CustomButton = styled(Button)`

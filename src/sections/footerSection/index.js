@@ -1,8 +1,6 @@
     import { React, } from "react";
-    import Wave from 'react-wavify'
-    import { Container, Row, Col } from "react-bootstrap";
-    import styled from "styled-components"
-    import SimpleReactFooter from "simple-react-footer";
+    // import { Container, Row, Col } from "react-bootstrap";
+    // import styled from "styled-components"
     import Footer from '../../components/footer';
     import Icon from '../../components/icons';
 
