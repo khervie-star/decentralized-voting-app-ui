@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import { React, } from "react";
+import { Routes, Route, Link } from "react-router-dom";
 import './App.css';
+import About from "./pages/about";
+import LandingPage from './pages/landingPage';
+import Vote from "./pages/votePortal";
+
 
 function App() {
+  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    // particlesJS.load('particles-js', 'assets/particles.json', function() {
+    //   console.log('callback - particles.js config loaded');
+    // });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/vote" element={<Vote />} />
+        </Routes>
     </div>
   );
 }
