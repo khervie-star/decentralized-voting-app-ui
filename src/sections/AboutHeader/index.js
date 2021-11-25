@@ -21,7 +21,7 @@ function AboutHeader(params) {
                                     fontFamily:" 'Open Sans', sans-serif",
                                     fontWeight:"bold",
                                     // color:"#434343",
-                                    color:"#48BBAF",
+                                    color:"#fafafa",
                                     fontSize:"1.6em",
                                 }}>
                                     ABOUT Choice Coin
@@ -40,7 +40,7 @@ function AboutHeader(params) {
                             <div>
                                 <img src={aboutUs} alt="About Us"
                                     style = {{
-                                        width:"100%",
+                                        width:"80%",
 
                                     }}
                                 />

@@ -108,8 +108,8 @@ html.sr .load-hidden {
   font-weight: bold;
 }
 .about p{
-  color: #232323;
-  opacity: 0.6  56;
+  color: #fafafa;
+  opacity: 0.9 !important;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 1.1em;
@@ -214,8 +214,14 @@ html.sr .load-hidden {
 }
   
 .about p{
-  color: #666666;
+  color: #fafafa;
+  opacity: 0.5 !important;
   font-size: 0.95em;
+}
+
+.btn-check:active+.btn-outline-secondary, .btn-check:checked+.btn-outline-secondary, .btn-outline-secondary.active, .btn-outline-secondary.dropdown-toggle.show, .btn-outline-secondary:active {
+  background-color: #fafafa;
+  color: #1F2933;
 }
 /* ACCORDION */
 .accordion{
@@ -295,7 +301,10 @@ html.sr .load-hidden {
   .vote-panel{
     height: 100vh !important;
   }
-
+  .vote-page{
+    position: absolute;
+    top:60px !important;
+  }
   .vote-panel .vote-title{
     font-size: 0.9em !important;
   }
