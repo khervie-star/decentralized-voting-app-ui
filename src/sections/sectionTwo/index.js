@@ -1,7 +1,7 @@
 import { React, } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
-import team from "../../assets/gifs/84565-about-us.gif";
+// import team from "../../assets/gifs/84565-about-us.gif";
 import team2 from "../../assets/gifs/animation_500_kwdib4d4.gif"
 import Fade from 'react-reveal/Fade';
 

@@ -1,15 +1,10 @@
 import { React, useState, useEffect, useRef } from "react";
-import { Container, Tabs, Tab, Row, Col, Accordion, Card, ProgressBar, ButtonGroup, ToggleButton,} from "react-bootstrap";
-import background from "../../assets/img/heroVisual.svg"
-import connection from "../../assets/img/5394665-removebg-preview.png"
+import { Container, Row, Col, ButtonGroup, ToggleButton,} from "react-bootstrap";
 import CustomButton from "../../components/Button/Button.styles";
 import NavBar from "../../components/Navbar";
 import FooterSection from "../../sections/footerSection";
-import VoteDashboard from "../../sections/voteDashboard";
 import styled from "styled-components";
-import decentralized from "../../assets/img/5437739-removebg-preview.png";
 import DOTS from 'vanta/dist/vanta.dots.min';
-import * as THREE from 'three'
 
 
 
@@ -34,8 +29,7 @@ const CustomToggleButton = styled(ToggleButton)`
 `
 
 function VoteDetailsDashboard() {
-  const [key, setKey] = useState('home');
-  const [checked, setChecked] = useState(false);
+
   const [radioValue, setRadioValue] = useState('1');
 
   const radios = [

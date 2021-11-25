@@ -1,14 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import styled from "styled-components";
+// import styled from "styled-components";
 import aboutUs from "../../assets/img/3026238-removebg-preview.png"
 
-const SubText = styled.div`
 
-`
-const MainText = styled.div`
-
-`
 function AboutHeader(params) {
     return (
         <div>

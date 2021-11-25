@@ -1,14 +1,12 @@
 import { React } from "react";
 import styled from "styled-components";
-import customButton from "../../components/Button/Button.styles"
+// import customButton from "../../components/Button/Button.styles"
 import { Container, Row, Col } from "react-bootstrap";
 import { SwapRightOutlined, QuestionCircleOutlined, } from "@ant-design/icons";
-import NavBar from "../../components/Navbar";
-import lines from "../../assets/img/lines-bg.svg";
-import mockup2 from "../../assets/img/442-removebg-preview.png";
-import mockup3 from "../../assets/img/5437739-removebg-preview.png";
+// import lines from "../../assets/img/lines-bg.svg";
+// import mockup2 from "../../assets/img/442-removebg-preview.png";
 import CustomButton from "../../components/Button/Button.styles";
-import Particles from "react-tsparticles";
+// import Particles from "react-tsparticles";
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
 import { Link } from "react-router-dom";
@@ -20,33 +18,23 @@ import { Link } from "react-router-dom";
 const Hero = styled.div`
     margin-top: 100px;
 `
-const Lines = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100%;
-  z-index: 1;
-  pointer-events: none;
-  background-attachment: fixed;
-  opacity: 0.7;
-  background-image: url(${lines});
-`
-const WaveBottom = styled.div`
-  // position: absolute;
-  // bottom:-80px;
-  // left: 0;
-  // width: 100%;
-  // z-index: 2000;
-  // height: 100px;
-  // pointer-events: none;
-`
+// const Lines = styled.div`
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100vw;
+//   height: 100%;
+//   z-index: 1;
+//   pointer-events: none;
+//   background-attachment: fixed;
+//   opacity: 0.7;
+//   background-image: url(${lines});
+// `
+
 const HeaderTitle = styled.div`
  
 `
-const HeaderSubTitle = styled.div`
 
-`
 const HeaderText = styled.div`
 
     
@@ -54,15 +42,15 @@ const HeaderText = styled.div`
 
 
 function HeroSection(params) {
-    const particlesInit = (main) => {
-        console.log(main);
+    // const particlesInit = (main) => {
+    //     console.log(main);
     
-        // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-      };
+    //     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+    //   };
     
-      const particlesLoaded = (container) => {
-        console.log(container);
-      };
+    //   const particlesLoaded = (container) => {
+    //     console.log(container);
+    //   };
 
     return (
         <div>

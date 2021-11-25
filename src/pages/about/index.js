@@ -1,12 +1,10 @@
 import { React, useState, useEffect, useRef } from "react";
 import {  } from "react-bootstrap";
-import styled from "styled-components";
+// import styled from "styled-components";
 import NavBar from "../../components/Navbar";
-import AboutBody from "../../sections/AboutBody";
 import AboutHeader from "../../sections/AboutHeader";
 import FooterSection from "../../sections/footerSection";
 import DOTS from 'vanta/dist/vanta.dots.min';
-import * as THREE from 'three'
 
 
 function About(params) {

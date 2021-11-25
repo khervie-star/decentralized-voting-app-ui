@@ -3,9 +3,8 @@ import styled from "styled-components";
 import NavBar from "../../components/Navbar";
 import lines from "../../assets/img/lines-bg.svg";
 import HeroSection from "../heroSection";
-import BIRDS from 'vanta/dist/vanta.birds.min';
+// import BIRDS from 'vanta/dist/vanta.birds.min';
 import GLOBE from 'vanta/dist/vanta.globe.min';
-import * as THREE from 'three'
 
 
 
@@ -34,15 +33,6 @@ const Lines = styled.div`
     background-attachment: fixed;
     opacity: 0.4;
     // background-image: url(${lines});
-`
-const WaveBottom = styled.div`
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    width: 100%;
-    z-index: 2;
-    height: 100px;
-    pointer-events: none
 `
 
 function Headers(params) {

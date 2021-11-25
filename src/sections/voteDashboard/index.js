@@ -1,9 +1,8 @@
-import React, { useState, } from "react";
-import { Container, Tabs, Tab, Row, Col, Accordion, Card, } from "react-bootstrap";
-import faq from "../../assets/gifs/animation_500_kwf20go2.gif";
+import React from "react";
+import { Container,  Row, Col, Accordion, Card, } from "react-bootstrap";
 import faq2 from "../../assets/gifs/25046-faq-ask-and-you-get-an-answer.gif";
 import connection from "../../assets/img/5394665-removebg-preview.png"
-import vote from "../../assets/img/4116831-removebg-preview.png"
+// import vote from "../../assets/img/4116831-removebg-preview.png"
 import styled from "styled-components"
 import { UsergroupAddOutlined, StopOutlined, ClockCircleOutlined, } from "@ant-design/icons"
 import Countdown from "react-countdown";

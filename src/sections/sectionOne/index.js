@@ -3,7 +3,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import styled from "styled-components"
 import CardOneImage from "../../assets/img/603ff2c336038a3563dde353_image-3-teams-technology-template.svg";
 import CardTwoImage from "../../assets/img/603ff2c3d11f076b92242695_image-2-teams-technology-template.svg";
-import CustomButton from "../../components/Button/Button.styles";
+// import CustomButton from "../../components/Button/Button.styles";
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 
