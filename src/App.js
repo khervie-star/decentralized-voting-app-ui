@@ -4,6 +4,8 @@ import './App.css';
 import About from "./pages/about";
 import LandingPage from './pages/landingPage';
 import Vote from "./pages/votePortal";
+import VoteDetailsDashboard from "./sections/voteDetailsDashboard";
+
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/vote" element={<Vote />} />
+          <Route path="/submit-vote" element={<VoteDetailsDashboard />} />
         </Routes>
     </div>
   );

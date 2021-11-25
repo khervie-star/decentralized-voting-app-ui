@@ -8,7 +8,7 @@ import styled from "styled-components"
 import { UsergroupAddOutlined, StopOutlined, ClockCircleOutlined, } from "@ant-design/icons"
 import Countdown from "react-countdown";
 import votegif from "../../assets/gifs/8174-vote.gif";
-
+import { Link } from "react-router-dom"
 
 const CustomCard = styled(Card)`
     width: 95%;
@@ -73,7 +73,7 @@ function VoteDashboard() {
       <div style={{
       }}>
         <Container>
-          <Row style={{height:"100vh",}}>
+          <Row className="vote-panel" style={{height:"100vh",}}>
             <Col md={6} style={{padding:"20px", margin:"30px 0"}}>
               <div class="image-wrapper">
                 <img src={votegif} alt="vote" width="70%" />
@@ -84,6 +84,35 @@ function VoteDashboard() {
                   <HeaderText style={{marginLeft:"0px", paddingLeft:"0px",}}>Open Votes</HeaderText>
                   <p style={{color:"#666666",}}>Here are some open votes you can participate in</p>
                   <p style={{color:"red", fontWeight:"bold", fontSize:".9em"}}>Connect your wallet to vote</p>
+                  <Link to="/submit-vote" style={{textDecoration:"none"}}>
+                    <CustomCard className="vote-card" style={{
+                      height:"18vh",
+                    }}>
+                        <div className="vote-title">
+                          <VoteTitle>Decentralized voting should be adopted worldwide</VoteTitle>
+                        </div>
+                        <div className="sub-text" style={{
+                          display:"flex",
+                          position: "relative",
+                          marginTop:"25px",
+                        }}>
+                          <div className="countdown" style={{display:"flex", float:"right", color:"#3EA39E", fontSize:".95em"}}>
+                              <ClockCircleOutlined style={{margin:"-10px 4px 10px 0px"}}/>
+                              <Countdown date={Date.now() + 50000} renderer={renderer} />
+                          </div>
+                          <div className="already-voted">
+                            <span style={{
+                              color:"#666666",
+                              fontSize:".95em",
+                              marginLeft:"250px",
+                            }}>
+                              <UsergroupAddOutlined style={{margin:"-10px 4px 10px 0px"}}/>
+                              96 people voted</span>
+                          </div>
+                        </div>
+                    </CustomCard>
+                  </Link>
+                  <Link to="/submit-vote" style={{textDecoration:"none"}}>                
                   <CustomCard className="vote-card" style={{
                     height:"18vh",
                   }}>
@@ -106,42 +135,16 @@ function VoteDashboard() {
                             marginLeft:"250px",
                           }}>
                             <UsergroupAddOutlined style={{margin:"-10px 4px 10px 0px"}}/>
-                            96 people voted already</span>
+                            96 people voted</span>
                         </div>
                       </div>
                   </CustomCard>
-
-                  <CustomCard className="vote-card" style={{
-                    height:"18vh",
-                  }}>
-                      <div className="vote-title">
-                        <VoteTitle>Decentralized voting should be adopted worldwide</VoteTitle>
-                      </div>
-                      <div style={{
-                        display:"flex",
-                        position: "relative",
-                        marginTop:"25px",
-                      }}>
-                        <div className="countdown" style={{float:"right", color:"#3EA39E", fontSize:".95em"}}>
-                            <ClockCircleOutlined style={{margin:"-10px 4px 10px 0px"}}/>
-                            <Countdown date={Date.now() + 50000} renderer={renderer} />
-                        </div>
-                        <div className="already-voted">
-                          <span style={{
-                            color:"#666666",
-                            fontSize:".95em",
-                            marginLeft:"250px",
-                          }}>
-                            <UsergroupAddOutlined style={{margin:"-10px 4px 10px 0px"}}/>
-                            96 people voted already</span>
-                        </div>
-                      </div>
-                  </CustomCard>
+                  </Link>
               </div>
             </Col>
           </Row>
 
-          <Row style={{
+          <Row classNamke="faq" style={{
             height:"75vh",
             backgroundColor:"#1F2933",
             padding:"50px",

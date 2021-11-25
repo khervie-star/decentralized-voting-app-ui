@@ -157,7 +157,7 @@ function HeroSection(params) {
                 <Container>
                     <div>
                         <Row>
-                            <Col md={5}>
+                            <Col md={6} sm={12}>
                                 <div className = "header-intro">
                                   <Fade bottom>
                                     <HeaderTitle className="header-title-gradient">
@@ -166,11 +166,8 @@ function HeroSection(params) {
                                   </Fade>
 
                                   <Fade bottom>
-                                    <HeaderSubTitle>
-                                        Every holder has a voice
-                                    </HeaderSubTitle>
                                     <HeaderText>
-                                    Choice Coin is an Algorand Standard Asset that powers Decentralized Decisions, a voting and governance software built directly on the Algorand Blockchain. Decentralized Decisions enables organizations to make governance decisions in an open and decentralized manner. For the Choice Coin DAO, Decentralized Decisions leverages Proof-of-Participation as a governance mechanism, allowing voters to have a larger say in direct proportion to their contribution to the network.
+                                    Choice Coin is an Algorand Standard Asset that powers Decentralized Decisions, a voting and governance software built directly on the Algorand Blockchain. Decentralized Decisions enables organizations to make governance decisions in an open and decentralized manner.
                                     </HeaderText>
                                   </Fade>
                                   <Bounce bottom>
@@ -217,15 +214,6 @@ function HeroSection(params) {
 
                             <Col md={7}>
                                 <div className="mockup">
-                                    {/* <img src={mockup3} alt="Header Blob"
-                                        style={{
-                                            width: "80%",
-                                            position:"relative",
-                                            top:"-3vw",
-                                            right:"-10vw",
-                                            opacity:"0.85",
-                                        }}
-                                    /> */}
 
                                 </div>
                             </Col>

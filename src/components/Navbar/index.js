@@ -5,11 +5,10 @@ import brandlogo from "../../assets/img/logo-raw-removebg-preview.png";
 function NavBar(params) {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" variant="light"
+            <Navbar collapseOnSelect expand="lg" variant="dark" bg="dark"
                 style={{
                     zIndex:"1000",
-                    backgroundColor:"#1F2933",
-                    height:"5vw",
+                    // backgroundColor:"#1F2933",
                     fontSize:"1em",
                     fontFamily:"'Montserrat', sans-serif",
                     fontWeight:"bold",

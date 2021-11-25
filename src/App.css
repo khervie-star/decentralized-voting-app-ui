@@ -240,3 +240,79 @@ html.sr .load-hidden {
 .accordion-button{
   background-color: rgba(2, 1, 1, 0.06) !important;
 }
+
+/* Responsive code */
+@media only screen and (max-width: 768px) {
+  .header-intro{
+    position: absolute;
+    bottom:10px !important;
+  }
+
+  #section-two{
+    height: 80vh !important;  
+  }
+  #section-two img{
+    display: none !important;
+    background-image: url("./assets/gifs/84565-about-us.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: transparent !important; */
+  }
+
+  #section-one p{
+    display: none !important;
+  }
+  #section-one img{
+    width: 50% !important;
+  }
+  #section-one .card{
+    padding:30px !important;
+  }
+  #section-three .card{
+    margin: 30px !important
+  }
+  #section-three {
+    height: 220vh !important;
+    padding-right: 40px !important;
+    /* margin-right: 30px !important; */
+  }
+  #section-four {
+    height: 120vh !important;
+  }
+  nav{
+    height: 80px;
+    background-color: transparent !important;
+  }
+  .bg-dark {
+    background-color: transparent !important;
+  }
+  .navbar-collapse {
+    background-color: #1F2933;
+    padding: 10px;
+    color: #fff;
+  }
+
+  .vote-panel{
+    height: 100vh !important;
+  }
+
+  .vote-panel .vote-title{
+    font-size: 0.9em !important;
+  }
+
+  .vote-panel .image-wrapper{
+    display: none;
+  }
+  .already-voted .sub-text{
+    font-size: 0.75em !important;
+  }
+  .faq{
+    height: 150vh;
+  }
+  .FAQ .accordion{
+    width: 100% !important;
+  }
+  .already-voted{
+    margin-left: 10px !important;
+  }
+  }
