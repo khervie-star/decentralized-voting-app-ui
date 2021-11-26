@@ -251,7 +251,7 @@ html.sr .load-hidden {
 @media only screen and (max-width: 768px) {
   .header-intro{
     position: absolute;
-    bottom:10px !important;
+    bottom:50px !important;
   }
 
   #section-two{
@@ -266,7 +266,7 @@ html.sr .load-hidden {
   }
 
   #section-one p{
-    display: none !important;
+    /* display: none !important; */
   }
   #section-one img{
     width: 50% !important;
