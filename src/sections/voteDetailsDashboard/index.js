@@ -5,7 +5,7 @@ import NavBar from "../../components/Navbar";
 import FooterSection from "../../sections/footerSection";
 import styled from "styled-components";
 import DOTS from 'vanta/dist/vanta.dots.min';
-import { message, Button, Space } from 'antd';
+import { message, } from 'antd';
 
 
 
