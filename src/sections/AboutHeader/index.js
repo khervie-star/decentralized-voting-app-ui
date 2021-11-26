@@ -7,7 +7,7 @@ import aboutUs from "../../assets/img/3026238-removebg-preview.png"
 function AboutHeader(params) {
     return (
         <div>
-            <div>
+            <div style={{marginTop:"20vh"}}>
                 <Container>
                     <Row>
                         <Col md={6}>

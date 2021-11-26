@@ -73,7 +73,7 @@ function VoteDashboard() {
       }}>
         <Container>
           <Row className="vote-panel" style={{height:"100vh",}}>
-            <Col md={6} sm={12} style={{padding:"20px", margin:"30px 0"}}>
+            <Col md={6} className="gif-div" style={{padding:"20px", margin:"30px 0"}}>
               <div class="image-wrapper">
                 <img src={votegif} alt="vote" width="70%" />
               </div>
@@ -93,7 +93,7 @@ function VoteDashboard() {
                         <div className="sub-text" style={{
                           display:"flex",
                           position: "relative",
-                          marginTop:"25px",
+                          // marginTop:"25px",
                         }}>
                           <div className="countdown" style={{display:"flex", float:"right", color:"#3EA39E", }}>
                               {/* <ClockCircleOutlined style={{margin:"-10px 4px 10px 0px"}}/> */}

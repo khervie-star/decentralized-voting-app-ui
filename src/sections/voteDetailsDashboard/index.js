@@ -5,6 +5,8 @@ import NavBar from "../../components/Navbar";
 import FooterSection from "../../sections/footerSection";
 import styled from "styled-components";
 import DOTS from 'vanta/dist/vanta.dots.min';
+import { message, Button, Space } from 'antd';
+
 
 
 
@@ -29,6 +31,11 @@ const CustomToggleButton = styled(ToggleButton)`
 `
 
 function VoteDetailsDashboard() {
+  
+  const success = () => {
+    message.success('This is a success message');
+    console.log("hey")
+  };
 
   const [radioValue, setRadioValue] = useState('1');
 
@@ -59,13 +66,13 @@ function VoteDetailsDashboard() {
         // backgroundImage: `url(${background})`,
       }} ref={myRef}>
             <NavBar style={{backgroundColor:"#1F2933",}}/>
-            <div>
+            <div style={{marginTop:"150px", padding:"20px", }}> 
               <Container>
                 <Row>
                 <Col className="vote-page" md={6} style={{color:"#fafafa"}} sm={12}>
                     <div>
                       <HeaderText style={{color:"#fff", paddingLeft:"0px",}}>Vote</HeaderText>
-                    </div>
+                     </div>
                     <div>
                       <div className="">
                         <h5 style={{margin:"20px 0"}}>Decentralized voting should be adopted worldwide</h5>
@@ -83,6 +90,7 @@ function VoteDetailsDashboard() {
                               value={radio.value}
                               checked={radioValue === radio.value}
                               onChange={(e) => setRadioValue(e.currentTarget.value)}
+                              onClick={success}
                             >
                               {radio.name}
                             </CustomToggleButton>

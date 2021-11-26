@@ -98,7 +98,7 @@ html.sr .load-hidden {
 
 /* ABOUT US */
 .about{
-  margin-top: 20vh;
+  /* margin-top: 20vh; */
 }
 .about h3{
   font-size: 2.6em;
@@ -246,6 +246,9 @@ html.sr .load-hidden {
 .accordion-button{
   background-color: rgba(2, 1, 1, 0.06) !important;
 }
+.sub-text{
+  margin-top: 8% !important;
+}
 
 /* Responsive code */
 @media only screen and (max-width: 768px) {
@@ -287,10 +290,10 @@ html.sr .load-hidden {
   }
   nav{
     height: 80px;
-    background-color: transparent !important;
+    background-color: #1F2933 !important;
   }
   .bg-dark {
-    background-color: transparent !important;
+    background-color: #1F2933 !important;
   }
   .navbar-collapse {
     background-color: #1F2933;
@@ -304,8 +307,8 @@ html.sr .load-hidden {
     height: 120vh !important;
   }
   .vote-page{
-    position: absolute;
-    top:60px !important;
+    /* position: absolute; */
+    /* top:60px !important; */
   }
   .vote-panel .vote-title{
     font-size: 0.9em !important;
@@ -316,9 +319,8 @@ html.sr .load-hidden {
     margin: 0px;
     width: 100%;
   }
-  .vote-panel img{
- 
-    width: 100%;
+  .vote-panel .image-wrapper{
+    display: none !important;
   }
   .already-voted .sub-text{
     font-size: 0.75em !important;
@@ -331,7 +333,10 @@ html.sr .load-hidden {
     width: 100% !important;
   }
   .already-voted{
-    margin-left: 10px !important;
+    margin-left:50% !important;
+  }
+  .about{
+    margin-top: 0vh;
   }
   }
 
@@ -397,7 +402,7 @@ html.sr .load-hidden {
     }
     nav{
       height: 80px;
-      background-color: transparent !important;
+      /* background-color: transparent !important; */
     }
     .bg-dark {
       background-color: transparent !important;
@@ -409,20 +414,23 @@ html.sr .load-hidden {
     }
   
     .vote-panel{
-      height: 180vh !important;
+      height: 100vh !important;
       padding-top: 0px;
     }
     .vote-page{
-      position: absolute;
+      /* position: absolute; */
       top:60px !important;
     }
     .vote-panel .vote-title{
       font-size: 0.8em !important;
     }
+    .vote-panel .gif-div{
+      margin: 0px;
+      padding: 0px;
+    }
   
     .vote-panel .image-wrapper{
-      /* display: none; */
-      width: 100%;
+      display: none !important;
     }
      .sub-text{
       font-size: 0.85em !important;
@@ -441,7 +449,7 @@ html.sr .load-hidden {
       width: 100vw !important;
     }
     .already-voted{
-      margin-left:100px !important;
+      margin-left:50% !important;
     }
     .accordion{
       width: 100% !important;
@@ -449,6 +457,15 @@ html.sr .load-hidden {
     .accordion-button{
       font-size: .5em !important;
 
+    }
+    .navbar-collapse {
+    background-color: #1F2933;
+    padding: 10px;
+    color: #fff;
+    z-index: 1000;
+    }
+    .no-mobile{
+      display: none !important;
     }
     }
   
