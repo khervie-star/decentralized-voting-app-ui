@@ -180,7 +180,7 @@ html.sr .load-hidden {
 /* DROPDOWN   */
 .dropdown-menu{
   width:60vw !important;
-
+  background-color: #1F2933 !important;
 }
 
 /* SECTION TWO */
@@ -251,7 +251,7 @@ html.sr .load-hidden {
 @media only screen and (max-width: 768px) {
   .header-intro{
     position: absolute;
-    bottom:100px !important;
+    bottom:80px !important;
   }
 
   #section-two{
@@ -297,9 +297,11 @@ html.sr .load-hidden {
     padding: 10px;
     color: #fff;
   }
-
+  .already-voted{
+    margin-left: 250px;
+  }
   .vote-panel{
-    height: 80vh !important;
+    height: 120vh !important;
   }
   .vote-page{
     position: absolute;
@@ -309,14 +311,21 @@ html.sr .load-hidden {
     font-size: 0.9em !important;
   }
 
-  .vote-panel .image-wrapper{
-    display: none;
+  .vote-panel .col{
+    padding:0px;
+    margin: 0px;
+    width: 100%;
+  }
+  .vote-panel img{
+ 
+    width: 100%;
   }
   .already-voted .sub-text{
     font-size: 0.75em !important;
   }
   .faq{
     height: 150vh;
+    padding: 50px;
   }
   .FAQ .accordion{
     width: 100% !important;
@@ -325,3 +334,121 @@ html.sr .load-hidden {
     margin-left: 10px !important;
   }
   }
+
+  @media only screen and (max-width: 566px) {
+    .header-intro{
+      position: absolute;
+      bottom:20px !important;
+    }
+    .header-intro .header-text{
+      color: #898989;
+      font-size: .95em !important;
+    }
+    .header-intro .btn{
+      font-size: .85em !important;
+    }
+  
+    #section-two{
+      height:60vh !important;  
+      padding: 0px !important;
+      margin: 0px !important;
+    }
+    #section-two img{
+      display: none !important;
+      background-image: url("./assets/gifs/84565-about-us.gif");
+      background-size: cover;
+      background-repeat: no-repeat;
+      /* background-color: transparent !important; */
+    }
+    #section-one{
+      height: 90vh !important;
+      padding-top: 10px !important;
+    }
+    #section-one h4{
+      font-size: 1.2em !important;
+    }
+    #section-one p{
+      display: none !important;
+    }
+    #section-one img{
+      width: 50% !important;
+    }
+    #section-one .card{
+      padding:30px !important;
+      height: 160px !important;
+    }
+    #section-three .card{
+      margin: 30px !important
+    }
+    #section-three {
+      height: 220vh !important;
+      padding-right: 40px !important;
+      /* margin-right: 30px !important; */
+    }
+    #section-three .card{
+      padding:20px;
+      padding-top: 5px !important;
+    }
+    #section-three h5{
+      font-size: 1.2em;
+    }
+    #section-four {
+      height: 80vh !important;
+    }
+    nav{
+      height: 80px;
+      background-color: transparent !important;
+    }
+    .bg-dark {
+      background-color: transparent !important;
+    }
+    .navbar-collapse {
+      background-color: #1F2933;
+      padding: 10px;
+      color: #fff;
+    }
+  
+    .vote-panel{
+      height: 180vh !important;
+      padding-top: 0px;
+    }
+    .vote-page{
+      position: absolute;
+      top:60px !important;
+    }
+    .vote-panel .vote-title{
+      font-size: 0.8em !important;
+    }
+  
+    .vote-panel .image-wrapper{
+      /* display: none; */
+      width: 100%;
+    }
+     .sub-text{
+      font-size: 0.85em !important;
+    }
+    .faq{
+      height: 150vh;
+      padding: 20px !important;
+    }
+    .faq img{
+      display: none !important;
+    }
+    .FAQ div{
+      padding-left: 0px !important;
+    }
+    .FAQ .accordion{
+      width: 100vw !important;
+    }
+    .already-voted{
+      margin-left:100px !important;
+    }
+    .accordion{
+      width: 100% !important;
+    }
+    .accordion-button{
+      font-size: .5em !important;
+
+    }
+    }
+  

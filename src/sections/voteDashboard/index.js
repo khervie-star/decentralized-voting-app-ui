@@ -4,7 +4,7 @@ import faq2 from "../../assets/gifs/25046-faq-ask-and-you-get-an-answer.gif";
 import connection from "../../assets/img/5394665-removebg-preview.png"
 // import vote from "../../assets/img/4116831-removebg-preview.png"
 import styled from "styled-components"
-import { UsergroupAddOutlined, StopOutlined, ClockCircleOutlined, } from "@ant-design/icons"
+import { UsergroupAddOutlined, StopOutlined,} from "@ant-design/icons"
 import Countdown from "react-countdown";
 import votegif from "../../assets/gifs/8174-vote.gif";
 import { Link } from "react-router-dom"
@@ -73,7 +73,7 @@ function VoteDashboard() {
       }}>
         <Container>
           <Row className="vote-panel" style={{height:"100vh",}}>
-            <Col md={6} style={{padding:"20px", margin:"30px 0"}}>
+            <Col md={6} sm={12} style={{padding:"20px", margin:"30px 0"}}>
               <div class="image-wrapper">
                 <img src={votegif} alt="vote" width="70%" />
               </div>
@@ -95,18 +95,17 @@ function VoteDashboard() {
                           position: "relative",
                           marginTop:"25px",
                         }}>
-                          <div className="countdown" style={{display:"flex", float:"right", color:"#3EA39E", fontSize:".95em"}}>
-                              <ClockCircleOutlined style={{margin:"-10px 4px 10px 0px"}}/>
-                              <Countdown date={Date.now() + 50000} renderer={renderer} />
+                          <div className="countdown" style={{display:"flex", float:"right", color:"#3EA39E", }}>
+                              {/* <ClockCircleOutlined style={{margin:"-10px 4px 10px 0px"}}/> */}
+                              <Countdown date={Date.now() + 50000000} renderer={renderer} />
                           </div>
                           <div className="already-voted">
                             <span style={{
                               color:"#666666",
-                              fontSize:".95em",
-                              marginLeft:"250px",
+                              // marginLeft:"250px",
                             }}>
                               <UsergroupAddOutlined style={{margin:"-10px 4px 10px 0px"}}/>
-                              96 people voted</span>
+                              96 voted</span>
                           </div>
                         </div>
                     </CustomCard>
@@ -123,18 +122,17 @@ function VoteDashboard() {
                         position: "relative",
                         marginTop:"25px",
                       }}>
-                        <div className="countdown" style={{float:"right", color:"#3EA39E", fontSize:".95em"}}>
-                            <ClockCircleOutlined style={{margin:"-10px 4px 10px 0px"}}/>
-                            <Countdown date={Date.now() + 50000} renderer={renderer} />
+                        <div className="countdown" style={{float:"right", color:"#3EA39E",}}>
+                            {/* <ClockCircleOutlined style={{margin:"-10px 4px 10px 0px"}}/> */}
+                            <Countdown date={Date.now() + 50000000} renderer={renderer} />
                         </div>
                         <div className="already-voted">
                           <span style={{
                             color:"#666666",
-                            fontSize:".95em",
-                            marginLeft:"250px",
+                            // marginLeft:"250px",
                           }}>
                             <UsergroupAddOutlined style={{margin:"-10px 4px 10px 0px"}}/>
-                            96 people voted</span>
+                            44 voted</span>
                         </div>
                       </div>
                   </CustomCard>
@@ -143,12 +141,11 @@ function VoteDashboard() {
             </Col>
           </Row>
 
-          <Row classNamke="faq" style={{
+          <Row className="faq" style={{
             height:"75vh",
             backgroundColor:"#1F2933",
-            padding:"50px",
             borderRadius:"8px",
-            margin:"30px 0",
+            margin:"30px 0",  
             boxShadow:"rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px",
             // boxShadow:"rgba(0, 0, 0, 0.24) 0px 3px 8px",
           }}>

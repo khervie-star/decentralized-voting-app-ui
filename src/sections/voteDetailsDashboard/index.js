@@ -59,10 +59,10 @@ function VoteDetailsDashboard() {
         // backgroundImage: `url(${background})`,
       }} ref={myRef}>
             <NavBar style={{backgroundColor:"#1F2933",}}/>
-            <div style={{height:"100vh"}}>
+            <div>
               <Container>
                 <Row>
-                <Col className="vote-page" md={6} style={{padding:"20px", margin:"20px 0", color:"#fafafa"}} sm={12}>
+                <Col className="vote-page" md={6} style={{color:"#fafafa"}} sm={12}>
                     <div>
                       <HeaderText style={{color:"#fff", paddingLeft:"0px",}}>Vote</HeaderText>
                     </div>
@@ -90,11 +90,6 @@ function VoteDetailsDashboard() {
                         </ButtonGroup>
                       </div>
                     </div>
-                  </Col>
-                  <Col md={6} style={{padding:"20px", margin:"20px 0"}}>
-                      <div>
-                        {/* <img src={decentralized} width="50%" /> */}
-                      </div>
                   </Col>
                 </Row>
                 <CustomButton style={{padding:"15px", backgroundColor:"#3EA39E", position:"relative", bottom:"0px"}}>

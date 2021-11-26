@@ -2,7 +2,7 @@ import { React } from "react";
 import styled from "styled-components";
 // import customButton from "../../components/Button/Button.styles"
 import { Container, Row, Col } from "react-bootstrap";
-import { SwapRightOutlined, QuestionCircleOutlined, } from "@ant-design/icons";
+import { SwapRightOutlined,} from "@ant-design/icons";
 // import lines from "../../assets/img/lines-bg.svg";
 // import mockup2 from "../../assets/img/442-removebg-preview.png";
 import CustomButton from "../../components/Button/Button.styles";
@@ -154,7 +154,7 @@ function HeroSection(params) {
                                   </Fade>
 
                                   <Fade bottom>
-                                    <HeaderText>
+                                    <HeaderText className="header-text">
                                     Choice Coin is an Algorand Standard Asset that powers Decentralized Decisions, a voting and governance software built directly on the Algorand Blockchain. Decentralized Decisions enables organizations to make governance decisions in an open and decentralized manner.
                                     </HeaderText>
                                   </Fade>
@@ -174,10 +174,10 @@ function HeroSection(params) {
                                         }}>
 
                                             Learn about Fortoir
-                                            <QuestionCircleOutlined  style={{
+                                            {/* <QuestionCircleOutlined  style={{
                                                 padding:"5px",    
                                             }}    
-                                            />
+                                            /> */}
                                         </CustomButton>
                                         </Link>
                                         <CustomButton style={{

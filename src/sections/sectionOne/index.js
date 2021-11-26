@@ -72,18 +72,18 @@ function SectionOne(params) {
                             <CustomCard>
                                 <Fade bottom>
                                     <Row>
-                                        <Col md={6}>
-                                            <h4>Redefining Voting</h4>
-                                            <p style={{opacity:"0.75", fontSize:".9em", margin:"10px 0", }}>
-                                                All entities, from small businesses to first-world nations, suffer from outdated voting mechanisms that contribute to a culture of non-participation and voter supression. This leads to decisions that do not take fairly take into account what constituients and voters may want. To learn more about Choice Coin, please visit the official community website.
-                                            </p>
-                                        </Col>
-                                        <Col md={1}></Col>
                                         <Col md={5}>
                                             <img src={CardTwoImage} alt="card" style={{
                                                 width:"90%"
                                             }} />
                                         </Col>
+                                        <Col md={1}></Col>
+                                        <Col md={6}>
+                                            <h4>Redefining Voting</h4>
+                                            <p style={{opacity:"0.75", fontSize:".9em", margin:"10px 0", }}>
+                                                All entities, from small businesses to first-world nations, suffer from outdated voting mechanisms that contribute to a culture of non-participation and voter supression. This leads to decisions that do not take fairly take into account what constituients and voters may want. To learn more about Choice Coin, please visit the official community website.
+                                            </p>
+                                        </Col>                                        
                                     </Row>
                                 </Fade>
                             </CustomCard>

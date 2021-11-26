@@ -17,7 +17,7 @@ function NavBar(params) {
             >
                 <Container>
                 <Navbar.Brand href="/">
-                    <img src={brandlogo} alt="Choice Coin" width="7%"/>
+                    <img src={brandlogo} alt="Choice Coin" width="5%"/>
                     <p>Choice Coin</p>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

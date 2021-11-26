@@ -21,36 +21,36 @@ function SectionFour(params) {
       cardTitle: "Exchange Availablity and Listing",
       cardSubtitle:"The Choice Coin Network plans to attach a price to its native token, CHOICE, by the end of Q3 2021",
       cardDetailedText: "The Choice Coin Network plans to attach a price to its native token, CHOICE, by the end of Q3 2021. This will most likely be done through a decentralized exchange on the Algorand Blockchain such as Tinyman or AlgoDex. Choice Coin's inital liquidity pool will be with ALGO, allowing members of both communities to seamlessly trade between the two assets. With Tinyman launching by the end of Q3 2021, the Choice Coin Community is excited to have another aveneue to promote Choice, Decentralized Voting, and Democracy.",
-      media: {
-        type: "IMAGE",
-        source: {
-          url: "http://someurl/image.jpg"
-        }
-      }
+      // media: {
+      //   type: "IMAGE",
+      //   source: {
+      //     url: "http://someurl/image.jpg"
+      //   }
+      // }
     }, 
     {
         title: "Q1 2022",
         cardTitle: "Choice Charities",
         cardSubtitle:"The Choice Coin Network plans to launch Choice Charities, a charity hosted by Fortior Blockchain.",
         cardDetailedText: "The Choice Coin Network plans to launch Choice Charities, a charity hosted by Fortior Blockchain, for its native token. The goal of Choice Charities will be to identify charities and non-profit organizations that engage in democratic and equitable practices. Choice Coin holders will be able to use Choice to vote for Choice charitable contributions.",
-        media: {
-          type: "IMAGE",
-          source: {
-            url: "http://someurl/image.jpg"
-          }
-        }
+        // media: {
+        //   type: "IMAGE",
+        //   source: {
+        //     url: "http://someurl/image.jpg"
+        //   }
+        // }
       }, 
       {
         title: "Q2 2022",
         cardTitle: "Voting Application",
         cardSubtitle:"The Choice Coin Network plans to launch a full-stack voting application by the end of Q1 2022.",
         cardDetailedText: "The Choice Coin Network plans to launch a full-stack voting application by the end of Q1 2022. This application will be an update over the current Fortior Voting Protocol developed by Fortior Blockchain, and will be live. It will allow any organization across the world to vote using Choice Coin and the Choice Coin Network. The launch of this interactive platform will enable Choice Coin to be used more widely for its use-case and spread decentralized voting as a legitimate form of governance.",
-        media: {
-          type: "IMAGE",
-          source: {
-            // url: "http://someurl/image.jpg"
-          }
-        }
+        // media: {
+        //   type: "IMAGE",
+        //   source: {
+        //     // url: "http://someurl/image.jpg"
+        //   }
+        // }
       }, 
       {
         title: "Ongoing",
