@@ -60,8 +60,8 @@ function SectionOne(params) {
                                         <Col md={1}></Col>
                                         <Col md={6}>
                                             <h4>Decentralized Governance</h4>
-                                            <p style={{opacity:"0.75", fontSize:".9em"}}>
-                                                The purpose of Choice Coin is to allow decentralized organizations to govern themselves and control digital assets in an equitable fashion. As the decentralized Intranet evolves, more and more organizations operating in and working on projects in Decentralized Finance (DeFi), Non-Fungible Tokens (NFTs), and blockchain networks need a way to govern. Contrary to centralized systems, which are inherently hierarchical and pyramid like in nature, decentralized systems distribute power and decision making across global networks in a fair fashion. But, building decentralized systems is difficult, complex, and time consuming. The Decentralized Decisions software solves this problem with a secure, easy to use, and flexible governance software.
+                                            <p style={{opacity:"0.75", fontSize:".9em", margin:"10px 0",}}>
+                                                The purpose of Choice Coin is to allow decentralized organizations to govern themselves and control digital assets in an equitable fashion. As the decentralized Intranet evolves, more and more organizations operating in and working on projects in Decentralized Finance (DeFi), Non-Fungible Tokens (NFTs), and blockchain networks need a way to govern. Contrary to centralized systems, which are inherently hierarchical and pyramid like in nature, decentralized systems distribute power and decision making across global networks in a fair fashion. 
                                             </p>
                                         </Col>
                                     </Row>
@@ -74,8 +74,8 @@ function SectionOne(params) {
                                     <Row>
                                         <Col md={6}>
                                             <h4>Redefining Voting</h4>
-                                            <p style={{opacity:"0.75", fontSize:".9em"}}>
-                                                All entities, from small businesses to first-world nations, suffer from outdated voting mechanisms that contribute to a culture of non-participation and voter supression. This leads to decisions that do not take fairly take into account what constituients and voters may want. The Fortior Voting Protocol, powered exclusively by Choice Coin, is a simple solution that uses automation to create a voting system that is both fairer and quicker than present systems. To learn more about Choice Coin, please visit the official community website.
+                                            <p style={{opacity:"0.75", fontSize:".9em", margin:"10px 0", }}>
+                                                All entities, from small businesses to first-world nations, suffer from outdated voting mechanisms that contribute to a culture of non-participation and voter supression. This leads to decisions that do not take fairly take into account what constituients and voters may want. To learn more about Choice Coin, please visit the official community website.
                                             </p>
                                         </Col>
                                         <Col md={1}></Col>

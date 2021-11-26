@@ -251,11 +251,11 @@ html.sr .load-hidden {
 @media only screen and (max-width: 768px) {
   .header-intro{
     position: absolute;
-    bottom:50px !important;
+    bottom:100px !important;
   }
 
   #section-two{
-    height: 80vh !important;  
+    height:60vh !important;  
   }
   #section-two img{
     display: none !important;
@@ -283,7 +283,7 @@ html.sr .load-hidden {
     /* margin-right: 30px !important; */
   }
   #section-four {
-    height: 120vh !important;
+    height: 80vh !important;
   }
   nav{
     height: 80px;
@@ -299,7 +299,7 @@ html.sr .load-hidden {
   }
 
   .vote-panel{
-    height: 100vh !important;
+    height: 80vh !important;
   }
   .vote-page{
     position: absolute;
